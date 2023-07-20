@@ -24,7 +24,7 @@ export default function Objectives() {
       <div className="ObjectiveBox bg-light p-3 m-2 mt-3 rounded-3 d-flex">
         <div className="d-flex justify-content-center w-100">
           <div>
-            <h1 className="m-1 mb-4 text-center  ">🌟Helmmlo</h1>
+            <h1 className="m-1 mb-4 text-center  ">🌟Hello</h1>
 
             <div className="text-center">
               <p className="para">
