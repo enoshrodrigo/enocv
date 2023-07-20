@@ -234,8 +234,8 @@ const animate = useAnimation();
       <motion.div
       
         variants={{
-          start: { opacity: 0, x: -333,position:"absolute" },
-          headend: { opacity: 1, x: 0,position:"relative" },
+          start: { opacity: 0, y: -80 },
+          headend: { opacity: 1, y: 0 },
         }}
         initial="start"
         animate={animate}
@@ -248,8 +248,8 @@ const animate = useAnimation();
         <motion.div
           
           variants={{
-            start: { opacity: 0, x: 333 },
-            Box1end: { opacity: 1, x: 0 },
+            start: { opacity: 0, y:-150 },
+            Box1end: { opacity: 1, y: 0 },
           }}
           initial="start"
           animate={animate}

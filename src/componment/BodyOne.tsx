@@ -11,8 +11,8 @@ export default function BodyOne() {
 <motion.div 
  
  variants={{
-     bstart:{opacity:0, y:-333,x:0},
-     bend:{opacity:1,y:20,x:0}
+     bstart:{opacity:0,x:-120},
+     bend:{opacity:1,x:0}
 
  }}
  initial="bstart" animate="bend" transition={{ duration:2  }}
