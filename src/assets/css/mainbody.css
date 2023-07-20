@@ -1,0 +1,40 @@
+.body2Welcome{
+   
+
+}
+.aboutMepara{
+ 
+ font-family: 'PT Serif', serif;
+ color: var(--textColor);
+ font-size: larger;
+ transition: all 1s;
+ 
+}
+.aboutMepara:hover{
+    background-color: var(--bgColor);
+    border-radius: 12px;
+    transition: 1s;
+   
+
+   
+}
+
+.Myabout, .Myname{
+font-size: 48px;
+color: var(--textColor);
+}
+ 
+
+@media only screen and (max-width:991px) {
+ 
+    .rightBox{ 
+        /* display: none; */
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        
+        
+    }
+}
+
+ 

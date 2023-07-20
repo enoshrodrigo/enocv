@@ -1,0 +1,91 @@
+.myObjectives {
+  background-image: linear-gradient(43deg, #0a373a, #484361);
+  box-shadow: #2e5d6b -1px -1px 9px 1px;
+  position: absolute;
+  color: var(--textColor);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+.ObjectiveBox {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+}
+ 
+.ObjectiveBox h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.learning,
+.interests,
+.collaborate {
+  flex: 1;
+  margin: 0.5rem;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.learning b,
+.interests b,
+.collaborate b{
+ font-size: 26px;
+ padding-bottom: 8px;
+ text-transform: capitalize;
+ 
+}
+ 
+
+.learning ul,
+.interests ul,
+.collaborate ul {
+  list-style-type: none;
+  padding-left: 0; 
+  
+}
+
+.learning li,
+.interests li,
+.collaborate li {
+ 
+  padding: 12px;
+  font-size: 21px;
+  text-align: justify;
+
+}
+@media only screen and (max-width: 991px) {
+  .learning li,
+  .interests li,
+  .collaborate li {
+   
+    padding: 12px;
+    font-size: 21px;
+    text-align: center;
+  
+  }
+}
+
+.gif {
+  width: 100%;
+  margin-top: 1rem;
+}
+.para{
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}

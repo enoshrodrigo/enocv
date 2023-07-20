@@ -1,0 +1,52 @@
+ /* Footer styles */
+footer {
+    background: linear-gradient(to bottom right, rgb(86 90 211 / 85%), rgb(78 157 175 / 30%));
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer-container {
+            /* display: flex;
+            justify-content: space-between;
+            align-items: center; */
+  }
+  
+  .footer-address, .footer-contact {
+    flex: 1;
+  }
+  
+  .footer-social {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .footer-social a {
+    color: #555555;
+    margin-left: 16px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    color: #777777;
+    font-size: 14px;
+  }
+  
+  /* Font Awesome icons */
+  .fab {
+    font-size: 18px;
+  }
+  
+  /* Example styling */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  

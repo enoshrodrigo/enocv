@@ -1,0 +1,22 @@
+.footer-class{
+  background-color: #1f1f1f99;
+  color: var(--textColor);
+  width: fit-content;
+margin-bottom: 2px;
+  
+}
+.contactIcon{
+ 
+}
+.contactIcon:hover{
+scale: 1.5;
+transition: 0.56s;
+}
+.svgHome{
+  color: black;
+  scale: 1.2;
+  border-radius: 6px;
+  padding: 6px;
+  background: white;
+  transition: 0.56s;
+}

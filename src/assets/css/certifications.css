@@ -1,0 +1,64 @@
+.certificates {
+    background-image: linear-gradient(43deg, #0a373a, #484361);
+    box-shadow: #2e5d6b -1px -1px 9px 1px;
+    position: absolute;
+    color: var(--textColor);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .certificatesBox{
+    /* background: linear-gradient(to bottom right, rgba(138, 82, 82, 0.7), rgba(0, 0, 0, 0.3)), url("../images/certificates.gif"); */
+ background-size: cover;
+  }
+
+  .certificatesRight{
+   
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom right, rgb(50 58 151 / 70%), rgb(159 71 71 / 30%));
+    padding: 20px;
+    margin: 20px;
+  
+  }
+  .list  li{
+    padding-top: 12px;
+   padding-bottom: 25px;
+   font-size: larger;
+  }
+ 
+  
+  @media only screen and (max-width: 991px) {
+    .cardBody {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .video {
+      width: 100% !important;
+      height: auto !important;
+    }
+    .certificatesBox{
+      display: block !important;
+    }
+
+    .list  li{
+      margin-top: 9px;
+     margin-bottom: 15px;
+     
+    }
+  }
+  .certificatesBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: border-box;
+  }
+  
+  
+  

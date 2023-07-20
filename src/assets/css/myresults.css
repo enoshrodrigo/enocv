@@ -1,0 +1,51 @@
+.Resultcontent{  
+    display: flex;
+    align-items: center;
+   
+}
+.resultDivBackground{
+    width: inherit;
+}
+
+.resultPara{
+    background-image: linear-gradient(185deg,#715cb1, #2e73ad);
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 12px;
+    padding: 6px;
+    width: 356px;
+    
+    border-radius: 8px;
+    box-shadow: black 0px 1px 11px 3px;
+}
+.resultGrade{
+    background-image: linear-gradient(185deg,#715cb1, #2e73ad);
+    color: #ffffff;
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: black 0px 1px 11px 3px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    margin-left: 14px;
+}
+.resultBoxes{
+    width: min-content;
+
+}
+
+@media only screen and (max-width: 500px) {
+  
+    .Resultcontent{ 
+    width: 290px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+     
+  
+    .Resultcontent{ 
+    width: 202px;
+    }
+  }
+  
