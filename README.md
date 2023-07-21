@@ -1,6 +1,6 @@
 ## About My Portfolio
 
-This portfolio is built using React.js, HTML, CSS, and JavaScript. It serves as a showcase for my web development projects.
+This portfolio is built using React.js. It serves as a showcase for my web development projects.
 
 ## Portfolio Link
 
