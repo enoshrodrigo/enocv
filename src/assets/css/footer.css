@@ -5,13 +5,11 @@ footer {
     font-weight: bold;
     padding: 20px;
     text-align: center;
-    width:fit-content;
+    width:auto;
   }
   
   .footer-container {
-            /* display: flex;
-            justify-content: space-between;
-            align-items: center; */
+            
   }
   
   .footer-address, .footer-contact {
