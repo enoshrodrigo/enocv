@@ -27,12 +27,12 @@ export default function Skills() {
     <motion.div
       ref={getSkillBox}
       variants={{
-        start: { opacity: 0, x: -333 },
-        headend: { opacity: 1, x: 0 },
+        start: { opacity: 0,y: 100 },
+        headend: { opacity: 1 ,y: 0},
       }}
       initial="start"
       animate={animate}
-      transition={{ delay: 0.2, duration: 2, type: "spring" }}
+      transition={{ delay: 0.2, duration: 4, type: "spring" }}
       className="  "
     >
       <div className="mySkils position-absolute  p-2 z-2  mt-2  ">

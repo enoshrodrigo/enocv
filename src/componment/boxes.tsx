@@ -39,7 +39,7 @@ if (head1) {
         onClick={fun}
         ref={getObj0}
         variants={{
-          start: { opacity: 0, x: -333 },
+          start: { opacity: 0, x: -10 },
           headend: { opacity: 1, x: 0 },
         }}
         initial="start"
@@ -52,8 +52,8 @@ if (head1) {
       <motion.div
         ref={getObj1}
         variants={{
-          start: { opacity: 0, x: 333 },
-          Box1end: { opacity: 1, x: 0 },
+          start: { opacity: 0, y: -30},
+          Box1end: { opacity: 1, y: 0 },
         }}
         initial="start"
         animate={animate}
@@ -102,8 +102,8 @@ if (head1) {
       <motion.div
         ref={getObj2}
         variants={{
-          start: { opacity: 0, x: 333 },
-          Box2end: { opacity: 1, x: 0 },
+          start: { opacity: 0, y:-30 },
+          Box2end: { opacity: 1, y: 0},
         }}
         initial="start"
         animate={animate}
@@ -148,8 +148,8 @@ if (head1) {
       <motion.div
         ref={getObj3}
         variants={{
-          start: { opacity: 0, x: 222 },
-          Box3end: { opacity: 1, x: 0 },
+          start: { opacity: 0, y: -30 },
+          Box3end: { opacity: 1, y: 0 },
         }}
         initial="start"
         animate={animate}
